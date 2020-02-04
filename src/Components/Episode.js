@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Episode = (props) => {
-  let { myEpisode } = props
-
+  // let { eachEpisode } = props
+  // debugger
   return (
     <div>
-      Episode {myEpisode.number} - {myEpisode.name}
+      Episode {props.eachEpisode.number}  - {props.eachEpisode.name}
     </div>
   )
 }
